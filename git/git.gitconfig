@@ -1,0 +1,38 @@
+[push]
+	default = matching
+[core]
+	trustctime = false
+	editor = vim
+	filemode = false
+	ignorecase = false
+	quotepath = false
+[color]
+	ui = true
+[credential]
+	helper = cache --timeout=3600
+[merge]
+	tool = vimdiff
+[mergetool]
+	keeptemporaries = false
+	keepbackups = false
+	prompt = false
+	trustexitcode = false
+[alias]
+	last = log -1 --stat
+	cp = cherry-pick
+	fp = fetch -p
+	df = diff
+	pl = pull
+	plr = pull --rebase
+	ps = push
+	co = checkout
+	cl = clone
+	ci = commit
+	cim = commit -m
+	stsb = status -sb
+	st = status
+	br = branch
+	bra = branch --all
+	unstage = reset HEAD --
+	dc = diff --cached
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all

@@ -5,3 +5,6 @@
 
 + vim  
   cp vim/vim.vimrc ~/.vimrc
+
++ git  
+  cp git/git.gitignore ~/.gitignore
