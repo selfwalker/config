@@ -93,6 +93,7 @@ endif
 
 " new added settings are list below
 
+set nu
 set smarttab
 set tabstop=4
 set softtabstop=4
@@ -102,6 +103,7 @@ set fileencoding=utf-8
 set showmode
 set showmatch
 set nobackup
+set noundofile
 set nowb
 set noswapfile
 set autoread
