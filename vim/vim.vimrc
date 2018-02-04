@@ -92,6 +92,8 @@ if has('langmap') && exists('+langnoremap')
 endif
 
 " new added settings are list below
+
+set smarttab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -100,4 +102,8 @@ set fileencoding=utf-8
 set showmode
 set showmatch
 set nobackup
+set nowb
 set noswapfile
+set autoread
+set ignorecase
+set magic
