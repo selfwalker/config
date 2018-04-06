@@ -7,4 +7,4 @@
   cp vim/vim.vimrc ~/.vimrc
 
 + git  
-  cp git/git.gitignore ~/.gitignore
+  cp git/git.gitconfig ~/.gitconfig
